@@ -21,3 +21,7 @@ Important Note:
 Since the training dataset is quite large (42,000 labelled images), it would take a lot of time for training an SVM on the full MNIST data, so you can sub-sample the data for 
 training (10-20% of the data should be enough to achieve decent accuracy). Also, running a GridSearchCV() may take hours if you use a large value of k (fold-CV) such as 10 and 
 a wide range of hyperparameters; k = 5 should be sufficient.
+
+Downloads
+You can download the dataset from Kaggle here: https://www.kaggle.com/c/digit-recognizer/data
+Please use train.csv to train the model and test.csv to evaluate the results.
