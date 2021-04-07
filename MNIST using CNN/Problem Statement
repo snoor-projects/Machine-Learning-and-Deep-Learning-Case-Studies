@@ -1,0 +1,23 @@
+PROBLEM STATEMENT:
+A classic problem in the field of pattern recognition is that of handwritten digit recognition. Suppose that you have images of handwritten digits ranging from 0-9 
+written by various people in boxes of a specific size - similar to the application forms in banks and universities.
+The goal is to develop a model that can correctly identify the digit (between 0-9) written in an image. 
+
+OBJECTIVE:
+You are required to develop a model using Convolutional Neural Network (CNN) model which should correctly classify the handwritten digits from 0-9 based on the pixel values given as features. 
+
+DATA DESCRIPTION:
+For this problem, we use the MNIST data which is a large database of handwritten digits. The 'pixel values' of each digit (image) comprise the features, and the actual number 
+between 0-9 is the label. 
+Since each image is of 28 x 28 pixels, and each pixel forms a feature, there are 784 features. 
+
+In this assignment, try experimenting with various hyperparameters in CNN and observe the highest accuracy you can get.
+
+Important Note:
+Since the training dataset is quite large (60,000 labelled images), it would take a lot of time for training a CNN on the full MNIST data, so you can sub-sample the data for 
+training.
+
+I have tried to first build a simple CNN model and then increased the complexity. Comparisions of all three models on the basis of metrics like accuracy and loss is done.
+The testing is done on the 10,000 test images in the dataset.
+
+Dataset: MNIST dataset. You can use the following command: from keras.datasets import mnist
