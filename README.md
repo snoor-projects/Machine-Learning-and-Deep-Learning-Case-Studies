@@ -1,2 +1,5 @@
 # Case-Studies
-Machine Learning case studies
+
+**Explore + Analyse + Try + Repeat** 
+
+Machine Learning | Deep Learning | Data Science
