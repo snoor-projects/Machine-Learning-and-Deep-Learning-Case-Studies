@@ -1,0 +1,10 @@
+OBJECTIVE:
+To compare various activation functions on MNIST dataset. Analyse the loss and accuracy using plots.
+
+Dataset: MNIST dataset. You can use the following command: from keras.datasets import mnist
+
+To learn about how to load MNIST, refer this link: https://keras.io/api/datasets/mnist/
+
+Note:
+Try to change the hyperparameters like number of epochs, batch size and analyse. 
+You can compare the activations functions also in a similar way, but before that try to learn about the mathematics behing these functions and why we use them.
